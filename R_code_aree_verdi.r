@@ -36,6 +36,14 @@ fvc_mask <- mask(fvc2, bologna)
 lai_mask <- mask(lai2, bologna)
 ndvi_areeverdi <- mask(ndvi, aree_verdi_geop) # ndvi aree verdi croppato da shpfile del geoportale
 
+# prova
+ndvi_areeverdi <- mask(ndvi, aree_verdi_geop)
+gci_areeverdi <- mask(gci, aree_verdi_geop)
+gndvi_areeverdi <- mask(gndvi, aree_verdi_geop)
+ndmi_areeverdi <- mask(ndmi, aree_verdi_geop)
+fvc_areeverdi <- mask(fvc, aree_verdi_geop)
+lai_areeverdi <- mask(lai, aree_verdi_geop)
+
 # vegetation mask
 # 0.2 la vegetazione è sovrastimata
 soglia3 <- 0.3
